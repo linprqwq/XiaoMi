@@ -1,0 +1,142 @@
+.mixfold-info{
+    background-color: #000;
+}
+.nav-bar{
+    width: 1226px;
+    line-height: 63px;
+    margin: 0 auto;
+}
+.nav-bar h2{
+    display: inline-block;
+    font-weight: normal;
+    font-size: 18px;
+    color: #424242;
+}
+.bar-right{
+    display: inline-block;
+    float: right;
+}
+.bar-right li{
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+}
+.bar-right li a{
+    margin: 0 15px;
+    color: #616161;
+    vertical-align: middle;
+    font-size: 14px;
+    text-decoration: none;
+}
+.bar-right li a:hover{
+    color: #ff5c00;
+}
+.bar-right .bar-btn span{
+    color: #fff;
+    padding: 4px 12px ;
+    background-color: #ff6700;
+}
+.bar-right .bar-btn:hover{
+    color: #fff;
+    background-color:rgba(255,103,0,0.8);
+}
+.section{
+    width: 1226px;
+    height: 700px;
+    margin: 0px auto;
+    overflow: hidden;
+    padding-top: 100px;
+    border-bottom: #AAAAAA 1px solid;
+}
+.section span{
+    text-align: center;
+    color: #AAAAAA;
+    display: block;
+}
+.section .section-left,.section-right{
+    display: inline-block;
+}
+.section-right{
+    float: right;
+}
+.section-right .section-img{
+    margin-left: 30px;
+    display: inline-block;
+}
+ .section-left .section-text{
+     display: inline-block;
+     color: #FFFFFF;
+     text-align: left;
+
+ }
+ .section-left .section-text{
+     padding-top: 50px;
+     line-height: 30px;
+     font-size: 20px;
+     font-weight: 500;
+     letter-spacing: 2px;
+     overflow: hidden;
+ }
+.section-size .size-info{
+     width: 1240px;
+     margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-bottom: #AAAAAA 1px solid;
+ }
+.size-text .text-left,.text-right{
+    display: inline-block;
+}
+.size-text .text-left{
+    color: #FFFFFF;
+    font-size: 28px;
+    font-weight: 500;
+    float: left;
+    clear: both;
+    width: 300px;
+ }
+
+.size-text .text-right{
+    color: #AAAAAA;
+    font-size: 17px;
+    line-height: 30px;
+}
+.text-right strong{
+    color: #FFFFFF;
+    font-weight: 700;
+    line-height: 2;
+}
+.size-text .text-right .mt24{
+    color: #AAAAAA;
+    font-size: 14px;
+    margin-top: 24px;
+}
+.size-info .size-img{
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.size-text2{
+    width: 520px;
+    margin: 0 auto;
+}
+.text-right2{
+    color: #AAAAAA;
+    font-size: 17px;
+    line-height: 30px;
+    padding-top: 50px;
+}
+.text-right2 strong{
+    color: #FFFFFF;
+    font-weight: 700;
+    line-height: 2;
+}
+.section-size .size-footer{
+    color: #7a7a7a;
+    font-size: 13px;
+    width: 1226px;
+    margin:  0 auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    line-height: 25px;
+}

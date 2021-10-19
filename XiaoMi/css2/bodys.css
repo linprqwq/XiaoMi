@@ -1,0 +1,157 @@
+body{
+    background-color: #fff;
+}
+.mcenter{
+    width: 400px;
+    height: 600px;
+    display: inline-block;
+    position:absolute;
+    top: 90px;
+    left: 375px;
+    right: 0;
+    margin: 0 auto 80px;
+    padding: 45px 45px;
+    border-radius: 4px;
+}
+.mcenter .mcenter-card ul{
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+.mcenter .mcenter-card ul li{
+    display: inline;
+}
+
+.mcenter .mcenter-card ul li:last-child{
+    margin: 0 20px;
+}
+.mcenter .mcenter-card ul li a{
+    color: #333;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.mcenter .mcenter-table input{
+    width: 354.4px;
+    height: 60px;
+    margin: 20px 0;
+    border-radius: 4px;
+    border: none;
+    font-size: 17px;
+}
+.mcenter .mcenter-table .uid,.upwd{
+    -webkit-text-fill-color: #ff5c00;
+    background-color: rgba(217,217,217,0.2);
+
+}
+.mcenter .mcenter-table span{
+    font-size: 13px;
+    color: #ff5c00;
+    height: 16.8px;
+    display: block;
+}
+.mcenter .tj{
+    border:none;
+    color: white;
+    background-color: rgba(255,92,0,0.5);
+}
+.mcenter .tj:hover{
+    background-color: rgba(255,92,0,0.3);
+}
+/*×¢²á±í*/
+
+.mcenter-login{
+    display: none;
+    padding-top: 10px;
+}
+.mcenter-login form a{
+    color: #ff5c00;
+}
+.mcenter-login input,select{
+    outline: none;
+}
+
+.mc-box{
+    width: 354.4px;
+    height:  60px;
+    margin-top: 20px;
+    border-radius:4px ;
+    border: solid transparent;
+    padding: 0 15px;
+    background-color: rgba(217,217,217,0.2);
+}
+.mc-box:hover{
+    border: solid #ff5c00;
+}
+.mc-box label{
+    font-size: 12px;
+    margin-top: 10px;
+    color: #838383;
+    display: block;
+}
+.mc-box #mc-contry{
+    width: 340px;
+    font-size: 17px;
+    color: #333333;
+    border: none;
+    background-color: transparent;
+}
+.mc-box #mc-nums{
+    font-size: 17px;
+    height: 28px;
+    color: #333333;
+    border: none;
+    background-color: transparent;
+}
+.mc-box .mc-txphone{
+    font-size: 17px;
+    height: 28px;
+    width: 270px;
+    color: #333333;
+    border:none;
+    background-color: transparent;
+}
+.mc-box .mc-message{
+    font-size: 17px;
+    border: none;
+    background-color: transparent;
+}
+.mc-lastbox{
+    width: 354.4px;
+    height:  60px;
+    margin-top: 10px;
+    border-radius:4px ;
+    border: solid transparent;
+    padding: 0 15px;
+}
+.mc-lastbox .mc-zc{
+    border: none;
+    border-radius: 5px;
+    width: 360px;
+    height: 60px;;
+    font-size: 17px;
+    color: white;
+    background-color:rgba(255,92,0,0.5) ;
+}
+.mc-lastbox .mc-zc:hover{
+    background-color:rgba(255,92,0,0.3) ;
+}
+.mc-notmessage span{
+    margin-left: 20px;
+}
+.mcenter-login .mc-bootom{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.mcenter-login .mc-bootom a{
+    color: #333333;
+}
+.mcenter .mcenter-login #message-test,#phone-number{
+    margin-top: 10px;
+    font-size: 13px;
+    color: #ff5c00;
+    height: 16.8px;
+    display: block;
+}

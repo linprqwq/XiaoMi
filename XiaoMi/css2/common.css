@@ -1,0 +1,412 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+li {
+    list-style: none;
+}
+/*通用头部样式*/
+.top {
+    height: 41px;
+    background-color: #333333;
+    font-family: "Microsoft YaHei";
+}
+
+.zhong {
+    width: 1227px;
+    margin: 0 auto;
+    height: 41px;
+}
+.zuo {
+    float: left;
+}
+.zhong .ziti {
+    float: left;
+    height: 41px;
+    line-height: 41px;
+    font-size: 12px;
+    margin-left: 0px;
+}
+.bj1 .topd .tu img{
+    position: relative;
+    top: 20px;
+    width: 56px;
+    height: 56px;
+}
+.he {
+    float: right;
+    height: 41px;
+}
+
+.zhong .ziti a:hover {
+    color: red;
+    background-color: white;
+
+}
+
+.zhong .che {
+    float: left;
+    height: 41px;
+    width: 31px;
+    line-height: 41px;
+    margin-right: 0px;
+}
+
+
+
+.zhong a {
+    color: #B0B0B0;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 0px 8px;
+    height: 41px;
+    line-height: 41px;
+}
+
+.zhong a:hover {
+    color: white;
+}
+
+.you {
+    float: right;
+    height: 41px;
+}
+
+.top .zhong .che a:hover {
+    background-color: white;
+    color: black;
+}
+.yincang{
+    display: none;
+}
+/*通用底部样式*/
+.site-footer{
+    clear: both;
+
+}
+.wenzitiao {
+    height: 308px;
+    background-color: white;
+    margin-top: 30px;
+    padding-top: 20px;
+
+}
+
+.wenzitiaoxia {
+    width: 1226px;
+    height: 40px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.wenzitiaoxia a {
+    display:inline-block;
+    float: left;
+    color: black;
+    text-decoration: none;
+    border-right: 1px solid #E0E0E0;
+    width: 240px;
+    height: 40px;
+    margin-left: 2px;
+    line-height: 40px;
+    text-align: center;
+    position: relative;
+}
+
+.wenzitiaoxia .shebian {
+    border-right: 0px;
+}
+
+.wenzitiaoxia a:hover {
+    color: #ff5c00;
+}
+
+.wenzitiaoxia a .img1 {
+    position: absolute;
+    top: 7px;
+    left: 46px;
+}
+
+.wenzitiaoxia a .img2 {
+    position: absolute;
+    top: 7px;
+    left: 42px;
+}
+
+.wenzitiaoxia a .img3 {
+    position: absolute;
+    top: 7px;
+    left: 46px;
+}
+
+.wenzitiaoxia a .img4 {
+    position: absolute;
+    top: 7px;
+    left: 4px;
+}
+
+.wenzitiaoxia a .img5 {
+    position: absolute;
+    top: 7px;
+    left: 32px;
+}
+
+.wenzixiaxia {
+    width: 1227px;
+    height: 190px;
+    background-color: white;
+    border-top: 1px solid #E0E0E0;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+.xiali, .xiali2, .xiali3, .xiali4, .xiali5, .xiali6 {
+
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    text-align: center;
+    line-height: 30px;
+    font-size: 10px;
+    color: #E0E0E0;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.xiali7 {
+
+    height: 100px;
+    width: 170px;
+    background-color: white;
+    text-align: center;
+    line-height: 30px;
+    font-size: 10px;
+    color: #757575;
+    margin-top: -5px;
+    margin-left: 20px;
+    border-left: 1px solid #E0E0E0;
+}
+
+.xiada7 {
+    margin-left: 20px;
+    height: 40px;
+    width: 150px;
+    background-color: white;
+    text-align: center;
+    line-height: 40px;
+    color: #FF7529;
+    font-size: 14px;
+    border-left: 1px solid #E0E0E0;
+
+}
+
+.xiada, .xiada2, .xiada3, .xiada4, .xiada5, .xiada6 {
+    margin-left: 9px;
+    height: 40px;
+    width: 150px;
+    background-color: white;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+}
+
+.f1, .f2, .f3, .f4, .f5, .f6, .f7 {
+    float: left;
+}
+.wenzixiaxia a {
+    color: #333333;
+    text-decoration: none;
+}
+.wenzixiaxia .f1 ul li a{
+     color: #333333;
+ }
+.wenzixiaxia .f2 ul li a{
+    color: #333333;
+}
+.wenzixiaxia .f3 ul li a{
+    color: #333333;
+}
+.wenzixiaxia .f4 ul li a{
+    color: #333333;
+}
+.wenzixiaxia .f5 ul li a{
+    color: #333333;
+}
+.wenzixiaxia .f6 ul li a{
+    color: #333333;
+}
+.wenzixiaxia .f1 ul li a:hover {
+    color: #FF7529;
+}
+.wenzixiaxia .f2 ul li a:hover {
+    color: #FF7529;
+}
+.wenzixiaxia .f3 ul li a:hover {
+    color: #FF7529;
+}
+.wenzixiaxia .f4 ul li a:hover {
+    color: #FF7529;
+}
+.wenzixiaxia .f5 ul li a:hover {
+    color: #FF7529;
+}
+.wenzixiaxia .f6 ul li a:hover {
+    color: #FF7529;
+}
+.xiali7 .diyia {
+    border: 1px solid #FF7529;
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+    position: relative;
+    color: #FF7529;
+}
+
+.xiali7 .diyia:hover {
+    background-color: #FF7529;
+    color: white;
+}
+
+.xiali7 .diyia img {
+    position: absolute;
+    top: 7px;
+    left: 8px;
+}
+
+.diera {
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    position: relative;
+}
+
+.diera .dd {
+    position: absolute;
+    top: 2px;
+    right: 25px;
+}
+
+.diera .tt {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+}
+
+.zuihouxiaozi {
+    height: 140px;
+    width: 1227px;
+    margin: 20px auto;
+    background-color: #FAFAFA;
+}
+
+.zuihouxiaozitu {
+    float: left;
+    background-color: #FAFAFA;
+    height: 140px;
+    width: 70px;
+}
+
+.zuihouxiaozizi {
+    float: left;
+    height: 160px;
+    width: 1157px;
+    margin-top: 10px;
+}
+
+.zuihouxiaozizi a {
+    font-size: 10px;
+    color: #757575;
+    text-decoration: none;
+}
+
+.zuihouxiaozizi a:hover {
+    color: #FF6A00;
+}
+
+.zuihouxiaozizi span {
+    font-size: 10px;
+    color: #757575;
+}
+
+.dibuzi {
+    margin-top: 70px;
+    height: 50px;
+}
+
+.dibuzi p {
+    text-align: center;
+    font-size: 16px;
+    color: #CBCBCB;
+    font-weight: 200;
+}
+.xiali7 ul{
+    position: relative;
+    left: 25px;
+}
+.xiada7 span{
+    position: relative;
+    left: 25px;
+}
+
+.site-header .site-info{
+    width: 1226px;
+    height: 100px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.site-info .site-logo{
+    display: inline-block;
+    width: 112px;
+    height: 100px;
+    float: left;
+    vertical-align: middle;
+}
+.site-logo img{
+    padding-top: 25px;
+}
+.site-info .site-nav{
+    width: 800px;
+}
+.site-info .site-nav ul{
+    display: inline-block;
+}
+.site-info .site-nav ul li{
+    display: inline-block;
+    margin-right: 10px;
+    line-height: 100px;
+    text-align: center;
+}
+.site-info .site-nav ul li a{
+    color: #000000;
+    text-decoration: none;
+}
+.site-info .site-nav ul li a:hover{
+    color: #ff6700;
+}
+.site-info .site-search{
+    position: relative;
+    top: -70px;
+    width: 320px;
+    display: inline-block;
+    float: right;
+}
+.site-search #gname{
+    width: 245px;
+    height: 50px;
+    color: #757575;
+    border: 1px solid #e0e0e0;
+}
+
+.site-search #gbtn{
+    width: 50px;
+    height: 50px;
+    background-color: #FFFFFF;
+    border: 1px solid #e0e0e0;
+    cursor: pointer;
+}
+.site-search #gbtn:hover{
+    background-color: #ff6700;
+}
+
+

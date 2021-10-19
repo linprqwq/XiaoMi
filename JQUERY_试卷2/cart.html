@@ -1,0 +1,365 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <title> 购物车 </title>
+  <meta name="generator" content="editplus" />
+  <meta name="author" content="" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <style type="text/css">
+		body{
+			margin:0;
+			padding:0;
+		}
+		a{text-decoration:none;}
+
+		#header{
+			height:60px;
+			padding:30px 0 10px 0;
+			border-bottom:0px solid #339933;
+		}
+		#logo{
+			width:960px;
+			margin:0 auto;
+		}
+		
+		#logo_sou{
+			float:left;
+		}
+		#logo_sou dl{
+			
+			padding:0;margin:0;
+		}
+		#logo_sou dd{
+			line-height:20px;
+			margin-left:-120px;
+		}
+		#logo_sou dd h2{
+			margin:7px;
+		}
+		.mbb{
+			margin-right:150px;
+			float:left;
+		}
+		.gou{
+			padding-top:5px;
+			float:right:
+			margin-right:20px;
+			width:350px;
+			float:right;
+			padding-top:10px;
+		}
+		img{border:0;}
+		/*菜单*/
+		#menu{
+			background:#f53810;
+			line-height:35px;
+			clear:both;
+			border:0px solid #000;
+		}
+		.nav{
+			margin:0 auto;
+			width:960px;
+		}
+		.nav ul{
+			margin:0;
+			padding:0;
+			list-style:none;
+		}
+		.nav li{
+			float:left;
+			text-align:center;
+			
+		}
+		.nav a{
+			display:block;
+			padding:0 20px;
+			color:#fff;
+			text-decoration:none;
+		}
+		.nav a:hover{
+			background:#b5442d;
+			
+		}
+		/*商品列表部分*/
+		#container{
+			margin:0 auto;
+			width:920px;
+			padding:20px;
+		}
+		#container table{
+			width:920px;font-size:13px;
+		}
+		#container table .td3{
+			width:10%;
+			text-align:center;
+		}
+		#container table .td4{
+			width:20px;
+			text-align:center;
+		}
+		#container table .td3 img{
+			width:90%;
+		}
+		#container table .td2{
+			width:40%;
+			text-align:left;
+		}
+		#container table .td2 p{
+			margin:0;
+			line-height:20px;
+			
+		}
+		#container table .input{
+			text-align:center;
+			width:30px;
+			
+		}
+		#container table th,#container table td{
+			border-spacing:0;
+			border-collapse : collapse ;
+			line-height:20px;
+			padding:10px 0;
+		}
+		#container table th{
+			border-bottom:2px solid #222;
+		}
+
+		#container table tbody td{
+			border-bottom:1px dashed #999;
+		}
+
+		#container table tfoot td{
+			text-align:right;
+			padding:20px 0;
+			border-bottom:2px solid #222;
+		}
+		#container table tfoot td span.price{
+			font-size:30px;
+			color:#ff0000;
+			font-weight:bold;
+			
+		}
+		/*页面底部 */
+		#footer{
+			clear:both;
+			width:960px;
+			margin:20px auto;
+		}
+		.c{
+			background: pink;
+		}
+  </style>
+ </head>
+
+ <body>
+  <!-- 头部logo -->
+  <div id="header" class="">
+	<div id="logo" class="">
+		<div id="" class="mbb">
+			<img src="images/logo.png" alt="" />
+		</div>
+		<div id="logo_sou" class="">
+			<dl>
+				<dd><h2>购物车</h2></dd>
+				<dd>您好，欢迎光临!</dd>
+			</dl>
+		</div>
+		<div id="" class="gou">
+			<img src="images/1.png" width="335" height="30" alt="" />
+		</div>
+	</div>
+  </div>
+  <!-- 导航菜单 -->
+  <div id="menu" class="">
+	<div id="" class="nav">
+		<ul>
+			<li><a href="index.html">首页</a></li>
+			<li><a href="login.html">登陆</a></li>
+			<li><a href="register.html">注册</a></li>
+		</ul>
+		<div style="clear:both"></div>
+	</div>
+  </div>
+  <!-- 显示商品详情 -->
+  <div id="container" class="">
+	<table cellspacing="0">
+		<thead>
+			<tr>
+				<th class="td4"><input type="checkbox" name=""></th>
+				<th class="td3"></th>
+				<th class="td2">商品名称</th>
+				<th class="td3">麦包价</th>
+				<th class="td3">数量</th>
+				<th class="td3">优惠</th>
+				<th class="td3">小计</th>
+				<th class="td3">操作</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td class="td4"><input type="checkbox" name=""></td>
+				<td class="td3"><img src="images/11010401_01_m.jpg"/></td>
+				<td  class="td2">
+					<p>[DUDU]简爱系列手提/斜挎包 黑色[DUDU]简爱系列手提/斜挎包 黑色</p>
+					<p>100001</p>
+				</td> 
+				<td class="td3">￥288.00</td>
+				<td class="td3">
+					<a>-</a>
+					<input onclick="" class="input" value="1"/>
+					<a>+</a>
+				</td>
+				<td class="td3">-￥0.00</td>
+				<td class="td3">￥288.00</td>
+				<td class="td3"><a href="">删除</a></td>
+			</tr>
+			<tr>
+				<td class="td4"><input type="checkbox" name=""></td>
+				<td class="td3"><img src="images/11010401_01_m.jpg"/></td>
+				<td  class="td2">
+					<p>[DUDU]简爱系列手提/斜挎包 黑色[DUDU]简爱系列手提/斜挎包 黑色</p>
+					<p>100002</p>
+				</td> 
+				<td class="td3">￥188.00</td>
+				<td class="td3">
+					<a>-</a>
+					<input onclick="" class="input" value="1"/>
+					<a>+</a>
+				</td>
+				<td class="td3">-￥0.00</td>
+				<td class="td3">￥188.00</td>
+				<td class="td3"><a href="">删除</a></td>
+			</tr>
+			<tr>
+				<td class="td4"><input type="checkbox" name=""></td>
+				<td class="td3"><img src="images/11010401_01_m.jpg"/></td>
+				<td  class="td2">
+					<p>[DUDU]简爱系列手提/斜挎包 黑色[DUDU]简爱系列手提/斜挎包 黑色</p>
+					<p>100002</p>
+				</td> 
+				<td class="td3">￥88.00</td>
+				<td class="td3">
+					<a>-</a>
+					<input onclick="" class="input" value="1"/>
+					<a>+</a>
+				</td>
+				<td class="td3">-￥0.00</td>
+				<td class="td3">￥88.00</td>
+				<td class="td3"><a href="">删除</a></td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td colspan="3" style="text-align:left;">
+					<a href="#">批量删除</a>
+				</td>
+				<td colspan="5">
+					<span>共<span class="sl">0</span>件商品</span>
+					<span class="">应付金额:</span>
+					<span class="price">￥0.00</span>
+				</td>
+			</tr>
+		</tfoot>
+	</table>
+	<div id="" class="" style="text-align:right;margin:10px 0">
+		<a href="" style="display:inline-block;width:150px;height:40px;text-align:center;background:#f00;color:#fff;font-weight:bold;line-height:40px;">提交订单</a>
+	</div>
+  </div>
+
+   <!-- 页面底部 -->
+  <div id="footer" class="">
+	<img src="images/footer.PNG" width="960" height="162" alt="" />
+  </div>
+ <script src="js/jquery-1.8.2.js"></script>
+ <script>
+	 $(":checkbox:eq(0)").click(function(){
+		var zt=$(this).prop("checked")
+		 if(zt){
+			 $(":checkbox:gt(0)").prop("checked",zt).parent().parent().addClass("c")
+		 }else{
+			 $(":checkbox:gt(0)").prop("checked",zt).parent().parent().removeClass("c")
+		 }
+		 //计算总计和数量
+		 js()
+	 })
+	 $(":checkbox:gt(0)").click(function(){
+		 var  a= $(":checkbox:gt(0)").length;
+		 var  b= $(":checkbox:gt(0):checked").length;
+		 $(this).parent().parent().toggleClass("c")
+		if(a==b){
+			$(":checkbox:eq(0)").prop("checked","checked")
+		}else{
+			$(":checkbox:eq(0)").prop("checked","")
+		}
+		 //计算总计和数量
+		 js()
+	 })
+	 //-号
+	 $("a:contains('-')").click(function(){
+		var i=$(this).next().val()
+		 if(i==0){
+			 i=0;
+		 }else{
+			 i=i-1
+			 $(this).next().val(i)
+		 }
+		 //算小计
+		 xj(i,$(this))
+	 })
+	 //+号
+	 $("a:contains('+')").click(function(){
+		 var i1=parseInt($(this).prev().val())
+			 i1=i1+1
+			 $(this).prev().val(i1)
+		 //算小计
+		 xj(i1,$(this))
+
+	 })
+	 //算小计的方法
+	 function xj(i,o){
+		 var dj=parseFloat(o.parent().prev().html().substr(1))
+		 o.parent().next().next().html("￥"+(i*dj)+".00")
+		 //计算总计和数量
+		 js()
+	 }
+	//自己输入值
+	 $(".input").focus(function(){
+		$(this).select()
+	 }).blur(function(){
+		if($(this).val()>0){
+			//算小计
+			xj($(this).val(),$(this))
+		}else{
+			$(this).val("0")
+			xj($(this).val(),$(this))
+		}
+	 })
+
+	//计算的方法
+	 function js(){
+			//算选中的数量
+		 	var count=0;
+		 //算选中的总价
+		 var sum=0;
+			$(":checkbox:gt(0):checked").each(function(i,e){
+				if($(e).prop("checked")){
+					//取出每一个的数量
+					var sl=parseInt($(this).parent().parent().find("input:last").val())
+					//取出每个的小计
+					var xj1=sl*parseFloat($(this).parent().parent().find("input:last").parent().prev().html().substr(1))
+					count=count+sl;
+					sum=sum+xj1;
+				}
+			})
+		 $(".sl").html(count)
+		 $(".price").html("￥"+sum.toFixed(2))
+	 }
+
+	$("a:contains('删除')").click(function(){
+
+	})
+
+ </script>
+ </body>
+</html>

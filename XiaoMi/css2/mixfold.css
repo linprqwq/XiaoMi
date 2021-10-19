@@ -1,0 +1,657 @@
+.nav-bar{
+    width: 1226px;
+    line-height: 63px;
+    margin: 0 auto;
+}
+.nav-bar h2{
+    display: inline-block;
+    font-weight: normal;
+    font-size: 18px;
+    color: #424242;
+}
+.bar-right{
+    display: inline-block;
+    float: right;
+}
+.bar-right li{
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+}
+.bar-right li a{
+    margin: 0 15px;
+    color: #616161;
+    vertical-align: middle;
+    font-size: 14px;
+    text-decoration: none;
+}
+.bar-right li a:hover{
+    color: #ff5c00;
+}
+.bar-right .bar-btn span{
+    color: #fff;
+    padding: 4px 12px ;
+    background-color: #ff6700;
+}
+.bar-right .bar-btn:hover{
+    color: #fff;
+    background-color:rgba(255,103,0,0.8);
+}
+.mixfold-info{
+    background-color: #000;
+}
+.mixfold-text{
+    padding-top: 164.954px;
+    font-weight: 400;
+    color: #bdbdbd;
+    text-align: center;
+}
+.mixfold-text p{
+    line-height: 40px;
+}
+.mixfold-img img{
+    width: 100%;
+    height: auto;
+}
+.mixfold-img video{
+    width: 100%;
+    height: auto;
+}
+.mixfold-kong{
+    height: 176px;
+}
+.mixfold-btn{
+    text-align: center;
+    padding-top: 230px;
+}
+.mixfold-btn img{
+    width: 115.8px;
+    height: 42px;
+}
+.mixfold-text2{
+    font-size: 50px;
+    text-align: center;
+    line-height: 70px;
+    font-weight: 200;
+    color: #fff;
+}
+.mixfold-tuwen{
+    background-image: url("../image2/mixfold8.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 990.6px;
+    background-size: 1000px 900px;
+    background-position:top;
+    background-position:right;
+}
+.tuwen-info{
+    width: 1000px;
+    height: 290.4px;
+    margin: 0 auto;
+    padding-top: 180px;
+}
+.tuwen-info .tuwen-title{
+    font-size: 40px;
+    font-weight: 500;
+    color: #ffffff;
+}
+.tuwen-info .tuwen-title2{
+    font-size: 18px;
+    font-weight: 400;
+    color:#AAAAAA;
+}
+.mixfold-text2{
+    text-align: center;
+}
+.mixfold-text2 .text2-info1{
+    margin-bottom: 50px;
+}
+.mixfold-text2 .text2-info1 p{
+    color: #fff;
+    line-height: 50px;
+    font-size: 40px; ;
+    font-weight: 500;
+}
+.mixfold-text2 .text2-info2 p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color:#AAAAAA;
+}
+.mixfold-text2 .text2-info13{
+    font-size: 14px;
+    font-weight: 300;
+    color: #535353;
+    padding-bottom: 100px;
+}
+.mixfold-tuwen2{
+    background-image: url("../image2/mixfold11.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 900px;
+    background-size:100% 100%;
+}
+.mixfold-tuwen2 .img-text{
+    text-align: center;
+    padding-top: 700px;
+}
+.mixfold-tuwen2 .img-text .img-textinfo p{
+    color: #fff;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.text3-info1{
+    overflow:hidden;
+    text-align: left;
+    line-height: 30px;
+    width: 900px;
+    margin: 0 auto;
+}
+.text3-info1 .tex3-item{
+    width: 250px;
+    height: 133.28px;
+    float: left;
+    margin: 20px 20px;
+    display: inline-block;
+}
+.text3-info1 .tex3-item img{
+    width: auto;
+    height: 32.04px;
+}
+.text3-info1 .tex3-item .text3-t1{
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.text3-info1 .tex3-item .text3-t2{
+    font-size: 12px;
+    color: #bdbdbd;
+}
+.mixfold-kong2{
+    height: 80px;
+}
+.mixfold-text4{
+    width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.mixfold-text4 .text4-item{
+    width: 361.94px;
+    height: 153.68px;
+    text-align: center;
+    background-color: #14151a;
+    border-radius: 30px;
+    margin: 10px 10px;
+    float: right;
+}
+.text4-item .text4-content{
+    padding: 50px 30px;
+    line-height: 35px;
+}
+.text4-content .text4-t1{
+    color: #FFFFFF;
+    font-size: 21px;
+
+}
+.text4-content  .text4-t2{
+    color: #AAAAAA;
+    font-size: 14px;
+}
+.tuwen-info2{
+    width: 100%;
+    height: 800px;
+    background-image: url("../image2/mixfold13.jpg");
+    background-repeat: no-repeat;
+    background-size: 60% auto;
+    background-position: right;
+}
+.tuwen-info2 .tuwen-title3{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    padding-top: 20%;
+    padding-left: 18%;
+    width: 500px;
+}
+.tuwen-info3{
+    width: 100%;
+    height: 800px;
+    background-image:url("../image2/mixfold14.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+}
+.tuwen-info3 .tuwen-title4 img{
+    width: 114px;
+    height: 42px;
+}
+.tuwen-info3 .tuwen-title4{
+    padding-top: 150px;
+    line-height: 60px;
+    letter-spacing: 10px;
+}
+.tuwen-info3 .tuwen-title4 p{
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 200;
+}
+.example{
+    width: auto;
+    height: auto;
+    clear: both;
+}
+.example .example-left,.example-right{
+    display: inline-block;
+}
+.example-box{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.example .example-vedio{
+    width: 432px;
+    height: 557px;
+}
+.example-left .example-text{
+    position: relative;
+    top: -500px;
+}
+.example-left .example-text .etext1{
+    color: #FFFFFF;
+    font-size: 16px;
+}
+.example-left .example-text .etext2{
+    color: #AAAAAA;
+    font-size: 16px;
+    line-height: 25px;
+}
+.example video{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.example-left .example-vedio video{
+    position: relative;
+    top: -300px;
+}
+.example-right .example-text{
+    color: #AAAAAA;
+    font-size: 16px;
+    margin: 100px 15px;
+    line-height: 25px;
+}
+.example2 video{
+    width: 432px;
+    height: 557px;
+    margin: 20px 20px;
+}
+.example2 .example2-box{
+    width: 1200px;
+    margin: 0 auto;
+}
+.example2-box .example2-left,.example2-right{
+    display: inline-block;
+}
+.example2 .example2-img{
+    position: relative;
+    top: -330px;
+    left: -30px;
+}
+.example2 .example2-img img{
+    width: 557px;
+    height: 430px;
+}
+.example2 .example2-text{
+    font-size: 18px;
+    color: #AAAAAA;
+    padding-bottom: 100px;
+}
+.example2 .example2-text .example2-text2{
+    color: #FFFFFF;
+    line-height: 100px;
+}
+.example2-right .example2-text{
+    padding-top: 150px;
+}
+.example2-left .example2-text{
+    color: #AAAAAA;
+    margin-top: -250px;
+}
+.example3 .example3-video video{
+    width: 557px;
+    height: 430px;
+    margin: 15px 20px;
+}
+.example3 .example3-box{
+    width: 1200px;
+    margin: 0 auto;
+}
+.example3 .example3-left,.example3-right{
+    display: inline-block;
+}
+.example3-left .example3-text{
+    margin-top: 150px;
+}
+.example3-left .example3-text .example3-text1{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+.example3-left .example3-text .example3-text2{
+    color: #AAAAAA;
+    font-size: 18px;
+    padding-bottom: 50px;
+}
+.example3-left .example3-text .example3-text3{
+    color: #AAAAAA;
+    font-size: 18px;
+    margin-top: -100px;
+    padding-bottom: 30px;
+}
+.example4 .example4-box{
+    width: 900px;
+    margin: 0 auto;
+}
+.example4-box .example4-left{
+    width: 433px;
+    height: 557px;
+}
+.example4-box .example4-left,.example4-right{
+    display: inline-block;
+}
+.example4-right .example4-video video{
+    width: 433px;
+    height: 557px;
+}
+.example4-left .example4-text .example4-text1{
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 500;
+    padding-bottom: 50px;
+}
+.example4-left .example4-text .example4-text2{
+    color: #AAAAAA;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.example4-left .example4-text .example4-text3{
+    color: #AAAAAA;
+    font-size: 12px;
+}
+
+.mixfold-tuwen3{
+    width: 100%;
+    height: 700px;
+    background-image: url("../image2/mixfold16.jpg");
+    background-repeat: no-repeat;
+    background-size: 70% 100%;
+    background-position: 100% 0;
+}
+.mixfold-tuwen3 .tuwen-info4 img{
+    width: 114px;
+    height: 41px;
+}
+.mixfold-tuwen3 .tuwen-info4{
+    width: 700px;
+    margin: 0 auto;
+   padding-top: 260px;
+}
+.mixfold-tuwen3 .tuwen-title5{
+    color: #FFFFFF;
+    font-size: 53px;
+    font-weight: 200;
+}
+.mixfold-tuwen4{
+    width: 100%;
+    height: 700px;
+    background-image: url("../image2/mixfold17.jpg");
+    background-repeat: no-repeat;
+    background-size: 70% 100%;
+    background-position: 100% 0;
+}
+.tuwen-info4-1{
+    width: 700px;
+    margin: 0 auto;
+    padding-top: 260px;
+}
+.tuwen-info4-1 .tuwen-title4-1{
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 500;
+}
+.tuwen-info4-1 .tuwen-title4-2{
+    color: #AAAAAA;
+    font-size: 18px;
+    font-weight: 400;
+}
+.mixfold-img2 .imgaddr{
+    width: 875px;
+    margin: 0 auto;
+}
+.img2-kong{
+    height: 100px;
+}
+.mixfold-img2 img{
+    width: 875px;
+    height: 364px;
+}
+.mixfold-img2 .img2-text{
+    color: #535353;
+    font-size: 12px;
+    text-align: center;
+    line-height: 100px;
+}
+.mixfold-img3 .imgaddr3{
+    width: 895px;
+    margin: 0 auto;
+    overflow:hidden;
+}
+.imgaddr3 .img-item1,.img-item2{
+    display: inline-block;
+    margin: 5px 5px;
+}
+.imgaddr3 .img-item1 img{
+    width: 550px;
+    height: 408px;
+}
+.imgaddr3 .img-item2 img{
+    width: 307px;
+    height: 408px;
+}
+.imgaddr3 .img-item3{
+    width: 880px;
+    margin: 0 auto;
+}
+.imgaddr3 .img-item3 img{
+    width: 875px;
+    height: 472px;
+}
+.tuwen-info .tuwen-img img{
+    width: 113.93px;
+    height: 40.94px;
+    display: block;
+    margin: 0 auto;
+}
+.tuwen-info .tuwen-title5{
+    color: #FFFFFF;
+    font-size: 45px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 50px;
+    line-height: 55px;
+}
+.mixfold-text5 .text5-box{
+    width: 1000px;
+    margin: 0 auto;
+}
+.text5-box .text5-1{
+    width: 420px;
+    height: 168px;
+    color: #FFFFFF;
+    font-size: 38px;
+    padding-top: 50px;
+}
+.text5-box .text5-2{
+    width: 476.15px;
+    height: 81.6px;
+    color: #AAAAAA;
+    font-size: 18px;
+    margin-left: 50px;
+}
+.text5-box .text5-1,.text5-2{
+
+    display: inline-block;
+    vertical-align: middle;
+ }
+.mixfold-text6 .text6-info{
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.text6-info img{
+    width: 114.5px;
+    height: 41.53px;
+}
+.text6-info .text6{
+    display: inline-block;
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: right;
+}
+.mixfold-tuwen6{
+    overflow: hidden;
+    width: 100%;
+    height: 807px;
+    background-size: 70% 100%;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-image: url("../image2/mixfold28.jpg");
+}
+.mixfold-tuwen6 .tuwen6-info{
+    color: #FFFFFF;
+    width: 454px;
+    margin: 8% 10% 10% 50%;
+}
+.tuwen6-info .tuwen6-title{
+    font-size: 38.5px;
+    font-weight: 400;
+    line-height: 60px;
+}
+
+.items6-box .line{
+    width:150px ;
+    height: 1px;
+    background-color: #FFFFFF;
+}
+.items6-box .tuwen6-items{
+    width: 222px;
+    height: 96px;
+    line-height: 50px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.tuwen6-items .t6-1{
+    font-size: 21px;
+}
+.tuwen6-items .t6-2{
+    font-size: 14px;
+    color: #AAAAAA;
+}
+.mixfold-tuwen7{
+    overflow: hidden;
+    width: 100%;
+    height: 807px;
+    background-size: 80% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../image2/mixfold29.jpg");
+}
+.mixfold-tuwen7 .tuwen7-text{
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 500;
+    width: 1000px;
+    padding-top: 200px;
+    margin: 0 auto;
+}
+.mixfold-tuwen8{
+    width: 100%;
+    height: 700px;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../image2/mixfold30.jpg");
+}
+.mixfold-tuwen8 .tuwen8-text{
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 500;
+    padding-top: 20%;
+}
+.tuwen-info7{
+    width: 100%;
+    height: 800px;
+    background-image: url("../image2/mixfold31.jpg");
+    background-repeat: no-repeat;
+    background-size: 80% auto;
+    background-position: right;
+}
+.tuwen-info7 .tuwen-title7{
+    color: #FFFFFF;
+    text-align: left;
+    font-size: 40px;
+    font-weight: 500;
+    padding-top: 20%;
+    padding-left: 30%;
+    line-height: 70px;
+    letter-spacing: 10px;
+    width: 500px;
+}
+.mixfold-video .video-v1{
+    width: 876.39px;
+    height: 493.08px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.mixfold-video .video-v1 video{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.example4-right .example4-video img{
+    width: 433px;
+    height: 557px;
+    vertical-align: middle;
+}
+.mixfold-hint .hint-box{
+    color: #AAAAAA;
+    font-size: 17px;
+    text-align: left;
+    font-weight: 300;
+    width: 800px;
+    line-height: 30px;
+    margin: 0 auto;
+}
+.mixfold-tuwen9 .tuwen9-img{
+    width: 100%;
+    height: 393.3px;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    background-image: url("../image2/mixfold35.jpg");
+}
+.tuwen9-img img{
+    width: 203.4px;
+    height: 53.4px;
+    cursor: pointer;
+    margin: 10% 10% 70% 10%;
+}

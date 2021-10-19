@@ -1,0 +1,43 @@
+.mcenter-reminder{
+    width: 354px;
+}
+.mcenter-reminder div{
+    display: inline-block;
+    margin: 0 auto;
+}
+.mcenter-reminder div a{
+    color: #ff5c00;
+}
+.mcenter-reminder .mcenter-phone{
+    position: relative;
+    float: right;
+}
+.mcenter-else{
+    height: 40px;
+    width: 354px;
+    font-size: 17px;
+    text-align: center;
+}
+.mcenter-else div{
+    margin-top: 80px;
+}
+.mcenter-ico{
+    width: 354px;
+    text-align: center;
+}
+.mcenter-ico ul li{
+    display: inline;
+}
+.mcenter-ico ul li img{
+    width: 46px;
+    height: 46px;
+    margin: 0 10px;
+}
+.mbootom{
+    margin-top: 2%;
+    margin-left: 45%;
+}
+.mbootom .mbootom-text{
+    font-size: 12px;
+    margin: 0 auto;
+}

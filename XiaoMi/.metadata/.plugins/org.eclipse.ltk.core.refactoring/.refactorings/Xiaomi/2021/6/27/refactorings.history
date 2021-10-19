@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.guigu.www.dao.liwentao&apos; to &apos;com.guigu.www.dao&apos;&#x0D;&#x0A;- Original project: &apos;Xiaomi&apos;&#x0D;&#x0A;- Original element: &apos;Xiaomi/src/com.guigu.www.dao.liwentao&apos;&#x0D;&#x0A;- Renamed element: &apos;Xiaomi/src/com.guigu.www.dao&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.guigu.www.dao.liwentao&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.guigu.www.dao.liwentao" name="com.guigu.www.dao" qualified="false" references="true" stamp="1624853495103" textual="false" version="1.0"/>
+</session>

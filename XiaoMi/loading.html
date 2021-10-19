@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>小米登录</title>
+    <link rel="stylesheet" href="css2/head.css"/>
+    <link rel="stylesheet" href="css2/bodys.css"/>
+    <link rel="stylesheet" href="css2/bottom.css"/>
+    <link rel="icon" href="image2/xiamiico.ico"/>
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
+</head>
+<body>
+<div id="contain">
+<div class="mleft"></div>
+<div class="mtop">
+    <div class="mleft-content">
+        <div class="mleft-img">
+            <img src="image2/xiamiico.ico" alt=""/>
+            <span>小米账号</span>
+        </div>
+        <div class="mleft-menu">
+            <ul>
+                <li><a href="#">用户协议</a></li>
+                <li><a href="#">隐私政策</a></li>
+                <li><a href="#">帮助中心</a></li>
+                <span>|</span>
+                <li><a href="#">中文简体</a><span></span></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="mcenter">
+        <div class="mcenter-card">
+            <ul>
+                <li><a >登录</a></li>
+                <li><a >注册</a></li>
+            </ul>
+            <div class="mcenter-table">
+                <form action="../indexlogin.html" method="post" >
+                    <div>
+                        <input class="uid" id="uid" type="text" placeholder="邮箱/手机号码/小米ID"/>
+                    </div>
+                    <span id="uidts"></span>
+                    <div>
+                        <input  class="upwd" id="upwd" type="password" placeholder="密码"/>
+                    </div>
+                    <span id="pwdts"></span>
+                    <div>
+                        <input class="tj" id="tj" type="submit" value="登录"/>
+                    </div>
+                </form>
+                <div class="mcenter-reminder">
+                    <div><a href="#">忘记密码?</a></div>
+                    <div class="mcenter-phone"><a href="#">手机号登录</a></div>
+                </div>
+            </div>
+            <div class="mcenter-login">
+                <form action="Demo02.html" method="post" >
+                    <div class="mc-box">
+                        <label>国家/地区</label>
+                        <select name="contry" id="mc-contry">
+                            <option value="">中国</option>
+                            <option value="">美国</option>
+                            <option value="">日本</option>
+                            <option value="">英国</option>
+                            <option value="">法国</option>
+                        </select>
+                    </div>
+                    <span ></span>
+                    <div  class="mc-box">
+                        <label>国家码</label>
+                        <select name="phone" id="mc-nums">
+                            <option value="">+238</option>
+                            <option value="">+210</option>
+                            <option value="">+233</option>
+                        </select>
+                        <input id="mc-txphone"  class="mc-txphone"  type="text" placeholder="手机号"/>
+                        <span id="phone-number"></span>
+                    </div>
+                    <div  class="mc-box">
+                        <label >  </label>
+                        <input type="text" id="mc-message"  class="mc-message"  placeholder="短信验证码"/>
+                        <a href="#">获取验证码</a>
+                    </div>
+                    <span id="message-test"></span>
+                    <div class="mc-lastbox">
+                        <input id="mc-zc" class="mc-zc"  type="submit" value="注册"/>
+                    </div>
+                    <div class="mc-notmessage">
+                        <span><a href="#">收不到验证码?</a></span>
+                    </div>
+                    <div class="mc-bootom">
+                        <span>已阅读并同意小米账号</span>
+                        <a href="#">用户协议</a>
+                        <span>和</span>
+                        <a href="#">隐私政策</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+            <div class="mcenter-else">
+                <div><span>其它方式登录</span></div>
+            </div>
+            <div class="mcenter-ico">
+                <ul>
+                    <li><a href="#"><img src="image2/qqlog.png" alt=""/></a></li>
+                    <li><a href="#"><img src="image2/weibo.jpg" alt=""/></a></li>
+                    <li><a href="#"><img src="image2/taobao.png" alt=""/></a></li>
+                    <li><a href="#"><img src="image2/weixin.png" alt=""/></a></li>
+                </ul>
+            </div>
+
+</div>
+<div class="mbootom">
+    <div class="mbootom-text">
+                    <span>
+                        小米公司版权所有-京ICP备10046444-京公网安备11010802020134号-京ICP证110507号
+                    </span>
+    </div>
+</div>
+</div>
+</body>
+<script src="js2/jquery-1.8.2.min.js"></script>
+<script src="js2/loading.js"></script>
+</html>
